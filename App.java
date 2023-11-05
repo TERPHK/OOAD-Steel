@@ -3,7 +3,7 @@ import java.util.*;
 public class App {
 
     static String[] dataEmployee = { "0", "Jakrit", "123", "25000" };
-    static String[] dataCustomer = { "0", "Pakawat", "0813397654", "Mueng Phitsanulok", "pakawat@gmail.com", "123",
+    static String[] dataCustomer = { "0", "Pakawat", "0813397654", "Mueng Phitsanulok. thapho. 290/92-94", "pakawat@gmail.com", "123",
             "1" };  
 
     public static void main(String[] args) {

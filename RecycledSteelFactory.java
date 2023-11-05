@@ -4,7 +4,7 @@ public class RecycledSteelFactory {
     int factoryowner_id;
     String factoryownwer_name;
     String factoryowner_address;
-    static String[][] dataArraySteel = { { "0", "Pakawat", "Sukhothai"} };
+    static String[][] dataArraySteel = { { "0", "Pittaya", "kamphaeng phet"} };
 
     RecycledSteelFactory() {
 
