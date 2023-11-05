@@ -2,7 +2,7 @@ public class Notification extends Purchasing {
     // Attributes
     int notification_id;
 
-    static String[][] dataPurchase = { { "0", "0", "0", "5", "Ter", "0871913872", "Thapho", "Wait", "2023-10-10" } };
+    static String[][] dataPurchase = { { "0", "0", "0", "5", "jakrit", "0871913872", "Thapho", "Wait", "2023-10-10" } };
 
     // Constructor
     public Notification(int id) {
