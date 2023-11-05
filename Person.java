@@ -25,6 +25,9 @@ public class Person {
      public String getNamePerson() {
         return person_name;
     }
+    public static void setNamePerson(String name2){
+        person_name = name2;
+    }
     
    
 }

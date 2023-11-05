@@ -82,7 +82,7 @@ public class Customer extends Person {
     }
     public  void  setCustomerLevel(String CustomerLevel2){
         level = CustomerLevel2;
-    }
+    }   
     public String getCustomerName(){
         return person_name;
     }

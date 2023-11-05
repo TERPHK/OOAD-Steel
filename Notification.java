@@ -6,6 +6,7 @@ public class Notification extends Purchasing {
 
     // Constructor
     public Notification(int id) {
+        
         super(dataPurchase[id]);
         this.notification_id = Integer.parseInt(dataPurchase[id][0]);
 

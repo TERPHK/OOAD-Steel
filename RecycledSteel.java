@@ -4,19 +4,19 @@ public class RecycledSteel {
     static String steel_name;
     static float steel_weight;
     static float steel_price;
-                                        //Id /type                 /name             /weigh /price
-    static String dataRecylSteel[][] = {{"0","Hot rolled steel","Solid square steel","15","15"},
-                                        {"1","Hot rolled steel","I-Beam steel","15","15"},
-                                        {"2","Hot rolled steel","H-Beam steel","15","15"},
-                                        {"3","Hot rolled steel","angle iron","15","15"},
-                                        {"4","Hot rolled steel","steel gutter","10","10"},
-                                        {"5","Cold Formed Steel","Carbon Steel Round Pipe","15","15"},
-                                        {"6","Cold Formed Steel","galvanized steel pipe","15","15"},
-                                        {"7","Cold Formed Steel","C shape steel","15","15"},
-                                        {"8","Cold Formed Steel","square steel box","15","15"},
-                                        {"9","Cold Formed Steel","flat steel box","15","15"},
-                                        {"10","Cold Formed Steel","Cold Formed Channel","12","12"},
-                                        {"11","Cold Formed Steel","Total Steel","10","10"}};
+                                        //Id /type                 /name              /price/weigh
+    static String dataRecylSteel[][] = {{"0","Hot rolled steel","Solid square steel","15","5"},
+                                        {"1","Hot rolled steel","I-Beam steel","15","5"},
+                                        {"2","Hot rolled steel","H-Beam steel","15","5"},
+                                        {"3","Hot rolled steel","angle iron","15","5"},
+                                        {"4","Hot rolled steel","steel gutter","15","5"},
+                                        {"5","Cold Formed Steel","Carbon Steel Round Pipe","15","5"},
+                                        {"6","Cold Formed Steel","galvanized steel pipe","15","5"},
+                                        {"7","Cold Formed Steel","C shape steel","15","5"},
+                                        {"8","Cold Formed Steel","square steel box","15","5"},
+                                        {"9","Cold Formed Steel","flat steel box","15","5"},
+                                        {"10","Cold Formed Steel","Cold Formed Channel","15","5"},
+                                        {"11","Cold Formed Steel","Total Steel","15","5"}};
 
     RecycledSteel(int id){
         String[] array = dataRecylSteel[id];
